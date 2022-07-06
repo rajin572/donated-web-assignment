@@ -138,9 +138,12 @@ header {
     width: 50%;
     padding: 60px 30px;
     margin: 15px;
-    text-align: left;
+    text-align: center;
     background-color: aqua;
     border-radius: 5px;
+}
+.plan-box-img{
+    width: 20%;
 }
 
 .plan-box-header {
