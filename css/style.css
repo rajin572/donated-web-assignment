@@ -1,0 +1,238 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+}
+
+
+
+/* home section start from here  */
+
+header {
+    color: hwb(0 100% 0%);
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.8)), url(../images/donation5.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+}
+
+.home-section-text {
+    padding: 200px 0 20px;
+    font-size: 70px;
+}
+
+.home-section-discription {
+    font-size: 20px;
+    padding: 0% 20%;
+    margin: 40px;
+}
+
+.link-button {
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    background-color: tomato;
+    padding: 15px 30px;
+    border-radius: 5px;
+}
+
+/* home section end here  */
+
+
+
+
+
+/* Donation plan section start from here  */
+
+.donation {
+    width: 100%;
+    height: 100vh;
+    text-align: center;
+}
+
+.center-div {
+    padding-top: 120px;
+    /* background-color: aqua; */
+    width: 60%;
+    margin: auto;
+}
+
+.section-header {
+    font-size: 50px;
+    font-weight: 700;
+    margin: 15px;
+}
+
+.section-discri {
+    color: rgb(69, 69, 69);
+    font-size: 20px;
+    margin: 40px;
+}
+
+.donation-pricing {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 60%;
+    margin: 50px auto 0px;
+}
+
+.ammount {
+    background-color: rgb(247, 247, 247);
+    color: rgb(133, 133, 133);
+    font-size: 30px;
+    font-weight: 700;
+    padding: 30px;
+    text-align: center;
+    margin: 5px;
+}
+
+#selected-ammount {
+    background-color: rgb(255, 243, 243);
+    border: 3px solid rgb(255, 60, 57);
+    color: rgb(255, 60, 57);
+    padding: 40px 30px;
+    border-radius: 5px;
+}
+
+.custom-ammount {
+    color: black;
+    font-size: 20px;
+    text-align: center;
+    width: 100%;
+    padding-bottom: 10px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    outline: none;
+    margin-bottom: 50px;
+}
+
+/* Donation  section end here  */
+
+
+
+
+
+
+/* Donation plan section start from here */
+
+.donation-plan {
+    width: 100%;
+    height: 100vh;
+    text-align: center;
+}
+
+.donation-plan-section {
+    text-align: leftq;
+    display: flex;
+    justify-content: center;
+    width: 90%;
+    margin: 50px auto 0px;
+}
+
+.plan-box {
+    width: 50%;
+    padding: 60px 30px;
+    margin: 15px;
+    text-align: left;
+    background-color: aqua;
+    border-radius: 5px;
+}
+
+.plan-box-header {
+    font-size: 30px;
+    font-weight: 700;
+    margin: 40px 0px 30px;
+}
+
+.plan-box-discrip {
+    color: rgb(93, 93, 93);
+    font-size: 18px;
+}
+
+#plan-box-food {
+    background-color: rgb(223, 255, 244);
+}
+
+#plan-box-shelter {
+    background-color: rgb(233, 234, 255);
+}
+
+#plan-box-education {
+    background-color: rgb(255, 230, 235);
+}
+
+/* Donation plan section End here  */
+
+
+
+
+
+/* Get My Updates section start from here  */
+
+.contact {
+    width: 100%;
+    text-align: center;
+    height: 100vh;
+    /* margin-bottom: 100px; */
+}
+
+.my-updates {
+    margin-top: 100px;
+    width: 50%;
+    margin: auto;
+    background-color: rgb(250, 237, 216);
+    padding: 100px 50px;
+}
+
+.my-updates-input {
+    background-color: rgb(213, 213, 213);
+    font-size: 18px;
+    font-weight: 700;
+    width: 50%;
+    padding: 15px 15px;
+    outline: none;
+    border: none;
+    border-radius: 5px 0px 0px 5px;
+}
+
+.subcribe-btn {
+    padding: 15px 30px;
+    background-color: tomato;
+    font-size: 18px;
+    font-weight: 700;
+    color: white;
+    border-radius: 0px 5px 5px 0px;
+    border: none;
+    margin-left: -2%;
+    cursor: pointer;
+}
+
+/* Get My Updates section End here  */
+
+
+
+
+
+/* Footer section start from here */
+
+footer {
+    width: 100%;
+    height: 180px;
+    color: white;
+    padding: 30px 0%;
+    text-align: center;
+    background-color: black;
+}
+
+.footer-massage {
+    color: tomato;
+    font-size: 30px;
+    margin: 25px;
+}
+
+/* Footer section end here */
